@@ -1,0 +1,65 @@
+/* HV.css */
+
+body {
+    background-image: url('./images/asus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem;
+    line-height: 1.6;
+    color: #333;
+}
+  
+  .seccion {
+    margin-bottom: 2rem;
+  }
+  
+  .nombre-completo {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .informacion-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .experiencia, .habilidades {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experiencia li, .habilidades li {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos adicionales para personalizar */
+  
+  /* Sección inicial */
+  .seccion-inicial {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    padding: 2rem;
+  }
+  
+  /* Encabezados de sección */
+  h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Listas anidadas */
+  .experiencia ul, .habilidades ul {
+    margin-left: 2rem;
+  }
